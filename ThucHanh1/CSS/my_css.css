@@ -1,0 +1,159 @@
+﻿body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#topleft {
+    background-color: #FFFFFF;
+    height: 20px;
+    width: 70%;
+}
+
+#topright {
+    background-color: FFFFFF;
+    height: 20px;
+    width: 30%;
+    text-align: left;
+}
+
+    #topright input {
+        height: 10px;
+    }
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#bannerleft {
+    background-color: aqua;
+    height: 100px;
+    width: 40%;
+}
+
+#bannercenter {
+    background-color: blue;
+    height: 100px;
+    width: 30%;
+}
+
+#bannerright {
+    background-color: royalblue;
+    height: 100px;
+    width: 30%;
+}
+
+#bannerleft img {
+    width: 100%;
+    height: 100px;
+}
+
+#bannercenter img {
+    width: 100%;
+    height: 100px;
+}
+
+#bannerright img {
+    width: 100%;
+    height: 100px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100%;
+    font-size: 11px;
+}
+
+    #menu li {
+        list-style: none;
+    }
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#mainleft {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 50%;
+    margin-right: 5px;
+}
+
+    #mainleft img {
+        height: auto;
+        width: 100%;
+    }
+
+#maincenter {
+    background-color: white;
+    height: 500px;
+    width: 20%;
+    margin-right: 5px;
+}
+
+#mainright {
+    background-color: white;
+    height: 500px;
+    width: 30%;
+}
+
+#top ul {
+    margin: 0px;
+    padding: 0[x];
+}
+
+#topleft li {
+    list-style: none;
+    float: left;
+}
+
+#topright li {
+    list-style: none;
+    float: left;
+}
+
+    #topright li a {
+        height: 20px;
+    }
+
+#t {
+    list-style: none;
+    float: left;
+}
+
+#maincenter img {
+    height: 100px;
+    width: 60px;
+    float: right;
+}
+
+#maincenter li {
+    list-style: none;
+}
+
+#maincenter button {
+    float: right;
+}
+
+#mainright #anh1 {
+    margin-bottom: 15px;
+}
+
+#mainright #anh2 {
+    margin-top: 15px;
+}
